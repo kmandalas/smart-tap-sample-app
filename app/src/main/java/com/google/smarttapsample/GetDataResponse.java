@@ -249,7 +249,9 @@ class GetDataResponse {
   /**
    * Gets the payload from a decrypted record bundle payload
    *
-   * Looks for loyalty (`ly`) and a record id of (`n`) https://developers.devsite.corp.google.com/wallet/smart-tap/reference/ndef-records/service-object-records
+   * Looks for loyalty (`ly`) and a record id of (`n`)
+   *
+   * https://developers.google.com/wallet/smart-tap/reference/ndef-records/service-object-records
    *
    * @param decrypted Decrypted record bundle payload
    */
